@@ -1,0 +1,556 @@
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Google Font 2 */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+body{
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(180deg, rgb(59, 59, 59), rgba(0, 0, 0, 1));
+    background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 58px 130px 32px 130px;
+}
+ /* Navber styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    border: 1px solid rgb(84, 84, 83);
+    border-radius: 48px;
+    align-items: center;
+    padding: 0px 10px 0px 0px;
+
+}
+li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+nav h3{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60)
+}
+.home-style{
+    background-color: rgb(230, 83, 60);
+    padding: 8px 20px;
+    border-radius: 48px;
+}
+.home-style a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.ham-burger{
+    display: none;
+}
+/* Banner styles */
+
+.banner-container{
+    display: flex;
+    gap: 167px;
+} 
+
+.text-contant{
+   margin-top: 97px;
+   border: 2px solid greenyellow;
+}
+
+.banner-img-contant{
+  margin-top: 32px;
+  border: 2px solid red;
+}
+.banner-title{
+    font-size: 78px;
+    font-weight:900;
+    color: white;
+    padding-bottom: 24px;
+}
+.fnt-gread{
+    font-family: "Great Vibes", cursive;
+}
+.banner-desciption{
+    font-size: 16px;
+    font-weight: 400;
+    color: #747272;
+    padding-bottom: 24px;
+}
+.btn-primary{
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border-radius: 26px;
+    border: 1px solid wheat;
+}
+
+.btn-normal{
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    border-radius: 26px;
+    border: 1px solid wheat;
+    margin-left: 14px;
+}
+
+/* bottom btn */
+.bottom-btn{
+    /* width: 180px;
+    height: 96px; */
+    padding: 20px 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    margin-left: -100px;
+    margin-top: -165px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+
+}
+
+.number-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+#boll{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50px;
+}
+/* #ply-btn{
+    font-size: 30px;
+    color: rgb(230, 83, 60);
+    background-color: white;
+    border-radius: 60px;
+} */
+
+#number{
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+#video{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+/* top btn */
+.top-btn{
+    padding: 12px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 12px;
+    margin-left: 240px;
+    margin-top: -450px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+}
+#free-number{
+     font-size: 40px;
+     font-weight: 900;
+     color: white;
+}
+
+#free-video{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+/* main section styles */
+main{
+    margin: 58px 130px 32px 130px;
+}
+/* Change Your Habits section styles */
+.habite-title{
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 220px;
+}
+.habite-title h3{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.habite-title p{
+    color: #747272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+/* Habit card */
+.habits-secttion-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 10px; */
+    /* border: 2px solid violet; */
+}
+
+.habit-card{
+    /* border: 2px solid lavenderblush; */
+    width: 245px;
+    height: 300px;
+    text-align: center;
+}
+
+.habit-card img{
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+.habit-card h3{
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.habit-card p{
+    color: #747272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Ruin section styles */
+.run-section{
+    display: flex;
+    /* border: 2px solid rebeccapurple; */
+    margin: 50px 0px;
+    gap: 55px;
+    padding: 30px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 18px;
+    height: 200px;
+}
+
+.run-img-containt img{
+    width: 300px;
+    height: 100%;
+    border-radius: 18px;
+    
+} 
+
+.run-text-containt{
+    /* border: 2px solid firebrick; */
+    padding: 20px;
+    width: 600px;
+    height: auto;
+    
+}
+.run-text-containt h3{
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.run-text-containt p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #989393;
+    margin-bottom: 30px;
+}
+
+.run-btn{
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border-radius: 26px;
+    border: none;
+}
+
+/* BMI section styles */
+.Calculator-section{
+    background-color: #232222;
+    border: 2px solid yellow;
+    /* display: flex; */
+}
+.bmi-table{
+    border: 2px solid fuchsia;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid rgb(105, 105, 105);
+    padding: 10px 15px;
+    color: #989393;
+}
+
+.bmi-table h4{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.bmi-tabie{
+    padding-left: 20px;
+}
+table{
+    margin-bottom: 30px;
+}
+
+.bmi-input{
+    border: 2px solid green;
+}
+input{
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+.sex-option{
+    padding: 10px 63px;
+    border-radius: 8px;
+}
+.select-option{
+    padding: 10px 108px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.Calculat-btn{
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border-radius: 26px;
+    border: none;
+}
+/* Meet section styles */
+.meet-section{
+   
+}
+.meet-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.meet-desciption{
+    font-size: 16px;
+    font-weight: 400;
+    color: #989393;
+    text-align: center;
+}
+
+.meet-triner-card h4{
+    font-size: 30px;
+    color: white;
+}
+.meet-triner-card p{
+    font-size: 16px;
+    color: #989393;
+}
+
+.meet-triner-card{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #272525;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.triner-card{
+    position: relative;
+}
+.triner-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+.tainer-name{
+    position: absolute;
+    bottom: 40px;
+    left: -70px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(50% , 50%);
+}
+
+/* Footer section styles */
+.footer-section{
+    padding: 58px 130px 32px 130px;
+    display: flex;
+    gap: 50px;
+    
+}
+.footer-title-container{
+    width: 400px;
+    height: 200px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+.footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    padding-bottom: 20px;
+}
+.footer-desciption{
+    font-size: 16px;
+    font-weight: 400;
+    color: #989393;
+}
+.get-started-servics{
+    width: 300px;
+    height: 200px;
+    /* border: 2px solid rebeccapurple; */
+}
+.get-started-servics h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 15px;
+}
+.get-started-servics ul li{
+    list-style: none;
+   padding-top: 10px;
+}
+
+.get-started-servics ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #989393;
+}
+
+.footer-foot{
+    text-align: center;
+    color: #989393;
+    padding: 40px;
+    font-size: 18px;
+    font-weight: 500
+}
+/* Responcip  */
+@media screen and (max-width: 576px) {
+    header, main{
+        margin: 30px 20px;
+    }
+
+    /* nav{
+        flex-direction: column;
+        gap: 50px;
+    } */
+
+    nav ul{
+        display: none;
+    }
+
+    .ham-burger{
+        display: block;
+        color: white;
+    }
+
+    .banner-container{
+        flex-direction: column;
+        gap: 20px;
+    } 
+   .banner-title{
+       font-size: 60px;
+   }
+   .btn-primary{
+       padding: 15px;
+   }
+   .btn-normal{
+    padding: 15px;
+    margin-left: 5px;
+   }
+
+   .top-btn{
+    padding: 10px 15px;
+    margin-left: 192px;
+    margin-top: -550px;
+}
+    .bottom-btn{
+    margin-left: 5px;
+    margin-top: -340px;
+    }
+    .banner-img-contant{
+     text-align: center;
+    }
+    
+    /* Habite  */
+
+    .habite-title{
+        padding: 0;
+    }
+
+    .habit-card{
+        padding-top: 30px;
+    }
+    .habits-secttion-card{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    /* Run section */
+    .run-section{
+        flex-direction: column;
+        height: auto;
+    }
+    .run-text-containt{
+        
+        width: auto;
+    }
+    .run-img-containt img{
+        width: 100%;
+    }
+    .run-btn{
+       padding: 10px 90px;
+    }
+    /* meet */
+    .meet-triner-card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* footer */
+    .footer-section{
+        padding: 20px;
+        flex-direction: column;
+        /* gap: 50px; */
+    }
+    .footer-title-container{
+        width: auto;
+        height: auto;
+    }
+}    
