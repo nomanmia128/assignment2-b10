@@ -68,11 +68,15 @@ nav h3{
 } 
 
 .text-contant{
+    width: 520px;
+    height: 439px;
    margin-top: 97px;
    border: 2px solid greenyellow;
 }
 
 .banner-img-contant{
+  width: 349px;
+  height: 580px;
   margin-top: 32px;
   border: 2px solid red;
 }
@@ -252,7 +256,7 @@ main{
     padding: 30px;
     background-color: rgb(55, 55, 55);
     border-radius: 18px;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .run-img-containt img{
